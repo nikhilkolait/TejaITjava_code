@@ -15,7 +15,7 @@ import javax.persistence.Table;
 @Entity
 	@Table(name = "batch")
 	public class Batch {
-		@Id
+		@Id   
 		@GeneratedValue(strategy = GenerationType.IDENTITY)
 		private int id;
 		private String text;
